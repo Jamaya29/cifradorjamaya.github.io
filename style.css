@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap'); 
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    background-color: bisque;
+    width: 100%; 
+}
+a{
+    text-decoration: none;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 10px;
+}
+img{
+    width: 150px;
+}
+h1{
+    font-size: 34px;
+    color: rgb(221, 128, 14);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    font-size: 20px;
+    color: rgb(87, 10, 10);
+}
+.presentacion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.presentacion h1{
+   font-size: 35px; 
+   color: rgb(204, 26, 26);
+}
+.presentacion p{
+    width: 70%;
+    font-size: 30px;
+    padding: 10%;
+    font-family: "Delicious Handrawn", cursive;
+}
+.TRIOLOGIA{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%; 
+    margin: 10px 0 10px 0;
+    background-color: bisque;
+}
+
+.cajas{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+.caja img {
+    border-radius: 50%;
+}
+.caja p{
+    font-size: 12px;    
+}
